@@ -37,9 +37,15 @@
 {
     console.log("Masala-4")
     function son (a){
-        a= Math.trunc(a)+2
-        return a
+        return Math.trunc(a)+2
     }
-    console.log(son(6.25))
+    console.log(son(5.25))
     
+}
+{
+    console.log("Masala-5")
+    function son (a){
+        return a+1
+    }
+    console.log(son(4))
 }
