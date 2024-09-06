@@ -62,11 +62,32 @@
     // console.log(nm("Ibrohim"))
 }
 {
-    console.log("Masala-7")
-    function son(a) {
-        for(let i =a; i>=-a ; i--){
-            console.log(i)    
-        }
+    // console.log("Masala-7")
+    // function son(a) {
+    //     for(let i =a; i>=-a ; i--){
+    //         console.log(i)    
+    //     }
+    // }
+    // console.log(son(6))
+}
+{
+    // console.log("Masala-8")
+    // function boolen(a){
+    //     if(a==1){
+
+    //         return true
+    //     }else{
+    //         return false
+    //     }
+    // }
+    // console.log(boolen(0))
+}
+{
+    console.log("Masala-9")
+    function text(n,c) {
+        a = "My name is " +n
+        b = a+ ". I'm " +c
+        return b
     }
-    console.log(son(6))
+    console.log(text("ibrohim","uzbek"))
 }
