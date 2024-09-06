@@ -35,17 +35,29 @@
     
 }
 {
-    console.log("Masala-4")
-    function son (a){
-        return Math.trunc(a)+2
-    }
-    console.log(son(5.25))
+    // console.log("Masala-4")
+    // function son (a){
+    //     return Math.trunc(a)+2
+    // }
+    // console.log(son(5.25))
     
 }
 {
-    console.log("Masala-5")
-    function son (a){
-        return a+1
+    // console.log("Masala-5")
+    // function son (a){
+    //     a=a+1
+    //     a=String(a)
+    //     return a
+    // }
+    // console.log(son(5))
+}
+{
+    console.log("Masala-6")
+     function nm (a){
+        for(let i of a){
+            console.log(i)
+
+        }
     }
-    console.log(son(4))
+    console.log(nm("Ibrohim"))
 }
