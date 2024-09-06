@@ -52,12 +52,21 @@
     // console.log(son(5))
 }
 {
-    console.log("Masala-6")
-     function nm (a){
-        for(let i of a){
-            console.log(i)
+    // console.log("Masala-6")
+    //  function nm (a){
+    //     for(let i of a){
+    //         console.log(i)
 
+    //     }
+    // }
+    // console.log(nm("Ibrohim"))
+}
+{
+    console.log("Masala-7")
+    function son(a) {
+        for(let i =a; i>=-a ; i--){
+            console.log(i)    
         }
     }
-    console.log(nm("Ibrohim"))
+    console.log(son(6))
 }
